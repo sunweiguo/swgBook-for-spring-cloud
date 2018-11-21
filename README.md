@@ -1,6 +1,4 @@
-# swg-Note 
-
-## 个人学习笔记
+# swg-Note ![](https://img.shields.io/badge/language-java-orange.svg)
 
 <div align="center">
 	<img src="pic/avatar.png" width="150px">
