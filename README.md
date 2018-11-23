@@ -4,7 +4,7 @@
 	<img src="pic/avatar.png" width="150px">
 </div>
 
-### [1.spring cloud](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-weather-action) 
+### [1.spring cloud ![](https://img.shields.io/badge/SpringBoot-v2.1.0.RELEASE-519dd9.svg)](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-weather-action) 
 
 <b>根据慕课网视频教程：</b>[从天气项目看 Spring Cloud 微服务治理](http://coding.imooc.com/class/177.html)<b>学习的笔记和代码</b>
 
