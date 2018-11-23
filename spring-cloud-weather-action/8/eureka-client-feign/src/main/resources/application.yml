@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-weather-feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000

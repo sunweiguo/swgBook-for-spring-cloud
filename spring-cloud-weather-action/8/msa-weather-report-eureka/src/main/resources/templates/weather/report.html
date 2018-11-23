@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+          crossorigin="anonymous">
+    <title>蜗牛天气预报系统</title>
+</head>
+<body>
+
+<div class="container controls-pane">
+    <div class="row">
+        <h3 th:text="${reportModel.title}">snail</h3>
+
+        <select class="custom-select" id="selectCityId">
+            <option th:each="city : ${reportModel.cityList}"
+                    th:value="${city.cityId}"
+                    th:text="${city.cityName}"
+                    th:selected="${city.cityId eq reportModel.cityId }">
+            </option>
+        </select>
+    </div>
+
+    <div class="row">
+        <h1 class="text-success" th:text="${reportModel.report.city}">城市名称</h1>
+    </div>
+
+    <div class="row">
+        <p>
+            空气质量指数：<span th:text="${reportModel.report.aqi}"></span>
+        </p>
+    </div>
+    <div class="row">
+        <p>
+            当前温度：<span th:text="${reportModel.report.wendu}"></span>
+        </p>
+    </div>
+    <div class="row">
+        <p>
+            温馨提示：<span th:text="${reportModel.report.ganmao}"></span>
+        </p>
+    </div>
+    <div class="row">
+        <div class="card  border-info" th:each="forecast : ${reportModel.report.forecast}">
+            <div class="card-body text-info">
+                <p class="card-text" th:text="${forecast.date}">日期</p>
+                <p class="card-text " th:text="${forecast.type}">天气类型</p>
+                <p class="card-text" th:text="${forecast.high}">最高温度</p>
+                <p class="card-text" th:text="${forecast.low}">最低温度</p>
+                <p class="card-text" th:text="${forecast.fengxiang}">风向</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<script type="text/javascript" th:src="@{/js/weather/report.js}"></script>
+</body>
+</html>
