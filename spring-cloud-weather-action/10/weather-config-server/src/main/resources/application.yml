@@ -1,0 +1,19 @@
+
+spring:
+  application:
+    name: weather-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sunweiguo/spring-cloud-config-center
+          search-paths: config-repo
+          username: sunweiguo
+          password: 22daguozi
+          default-label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8086
