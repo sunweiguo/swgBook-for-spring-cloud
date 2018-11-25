@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: msa-weather-collection-eureka-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8081
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
