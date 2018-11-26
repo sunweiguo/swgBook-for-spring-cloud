@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    cache: false #�Ȳ���̬�ļ�
+  application:
+    name: msa-weather-report-eureka-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8083
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+  hystrix:
+    enabled: true

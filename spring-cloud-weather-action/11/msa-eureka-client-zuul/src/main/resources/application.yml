@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: msa-eureka-client-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+zuul:
+  routes:
+    city:
+      path: /city/**/
+      serviceId: msa-weather-city-eureka
+    data:
+      path: /data/**/
+      serviceId: msa-weather-data-eureka
+server:
+  port: 8085
