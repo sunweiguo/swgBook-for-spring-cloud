@@ -1,0 +1,13 @@
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: eureka
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: eureka-server
