@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: consumer_1
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brockers: localhost:9092
+          zk-nodes: localhost:2181
+          auto-create-topics: true
+      bindings:
+        #input是接收，注意这里不能再像前面一样写output了
+        input:
+          destination: stream-demo

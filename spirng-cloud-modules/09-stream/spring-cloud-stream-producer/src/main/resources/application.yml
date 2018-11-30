@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: producer
+  cloud:
+    stream:
+      kafka:
+        binder:
+          #Kafka的消息中间件服务器
+          brockers: localhost:9092
+          #Zookeeper的节点，如果集群，后面加,号分隔
+          zk-nodes: localhost:2181
+          #如果设置为false,就不会自动创建Topic 有可能你Topic还没创建就直接调用了。
+          auto-create-topics: true
+      bindings:
+        #这里用stream给我们提供的默认output，后面会讲到自定义output
+        output:
+          #消息发往的目的地
+          destination: stream-demo
+          #消息发送的格式，接收端不用指定格式，但是发送端要
+          content-type: text/plain
