@@ -34,9 +34,11 @@
 ### TODO---[6.Zookeeper原理学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/) 
 
 
+### TODO---[7.大数据入门](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
 
 
-### TODO---[7.基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
+
+### TODO---[8.基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
 
 
 
