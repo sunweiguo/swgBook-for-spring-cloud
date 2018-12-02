@@ -41,6 +41,13 @@
 ### TODO---[8.基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
 
 
+### TODO---[9.算法](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
+
+
+### TODO---[9.杂记](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
+
+:sparkles::sparkles::sparkles:零碎的知识点，都是看到一个觉得不会记录一下。
+
 
 :smile: :shipit: :sparkles: :-1: :+1: :clap:
 
