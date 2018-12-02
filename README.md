@@ -44,7 +44,7 @@
 ### TODO---[9.算法](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
 
 
-### TODO---[9.杂记](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
+### TODO---[9.杂记](https://github.com/sunweiguo/swgBook/tree/master/zaji)
 
 :sparkles::sparkles::sparkles:零碎的知识点，都是看到一个觉得不会记录一下。
 
