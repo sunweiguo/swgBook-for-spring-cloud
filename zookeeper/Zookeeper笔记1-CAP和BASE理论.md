@@ -28,7 +28,7 @@
 假设我们的程序是分布式部署在多台机器上，如果我们要改变程序的配置文件，需要逐台机器去修改，非常麻烦，现在把这些配置全部放到`zookeeper`上去，保存在 `zookeeper` 的某个目录节点中，然后所有相关应用程序对这个目录节点进行监听，一旦配置信息发生变化，每个应用程序就会收到 `zookeeper` 的通知，然后从 `zookeeper` 获取新的配置信息应用到系统中。
 
 <div align="center">
-    <img src="../../pic/zookeeper/Zookeeper笔记1-1.jpg" >
+    <img src="../pic/zookeeper/Zookeeper笔记1-1.jpg" >
 </div>
 
 ## Zookeeper设计目的
@@ -55,7 +55,7 @@
 一个分布式系统无法同时满足这三个条件，只能满足两个，意味着我们要抛弃其中的一项，如下图所示：
 
 <div align="center">
-    <img src="../../pic/zookeeper/Zookeeper笔记1-2.png" >
+    <img src="../pic/zookeeper/Zookeeper笔记1-2.png" >
 </div>
 
 * 1、CA，放弃P：将所有数据都放在一个分布式节点上。这同时放弃了系统的可扩展性。
