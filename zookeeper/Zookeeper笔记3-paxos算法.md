@@ -128,7 +128,7 @@ proposer选择一个提案编号n并将Prepare请求发送给acceptors中的一�
 
 
 <div align="center">
-    <img src="../pic/zookeeper/paxos算法6.png" >
+    <img src="../pic/zookeeper/paxos算法6.jpg" >
 </div>
 
 还有一个问题需要考量，假如proposer A发起ID为n的提议，在提议未完成前proposer B又发起ID为n+1的提议，在n+1提议未完成前proposer C又发起ID为n+2的提议…… 如此acceptor不能完成决议、形成活锁(livelock)，虽然这不影响一致性，但我们一般不想让这样的情况发生。解决的方法是从proposer中选出一个leader，提议统一由leader发起。
