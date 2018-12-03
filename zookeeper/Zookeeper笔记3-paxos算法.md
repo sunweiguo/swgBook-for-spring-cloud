@@ -123,6 +123,10 @@ proposer选择一个提案编号n并将Prepare请求发送给acceptors中的一�
     <img src="../pic/zookeeper/paxos算法5.png" >
 </div>
 
+中间缺的一点文字是：
+
+> 随后，B发起第二轮建议，给所有人发短信说，我们去吃披萨吧。Prepare(2,披萨)，由于异常原因，只有C，D，E，F四个人处理了他的消息，C，E，F由于没有做出过任何承诺，所以给B回复了承诺短信promise(2, NULL)，B由于已经给A做出过承诺，承诺了海底捞，所以给B回复了承诺promise(2, 海底捞)
+
 七个人约饭局的问题：
 
 
@@ -130,6 +134,11 @@ proposer选择一个提案编号n并将Prepare请求发送给acceptors中的一�
 <div align="center">
     <img src="../pic/zookeeper/paxos算法6.jpg" >
 </div>
+
+中间缺少的一点文字是：
+
+> 随后，B发起第二轮建议，给所有人发短信说，我们去吃披萨吧。Prepare(2,披萨)，由于异常原因，只有C，D，E，F四个人处理了他的消息，C，E，F由于没有做出过任何承诺，所以给B回复了承诺短信promise(2, NULL)，B由于已经给A做出过承诺，承诺了海底捞，所以给B回复了承诺promise(2, 海底捞)
+
 
 还有一个问题需要考量，假如proposer A发起ID为n的提议，在提议未完成前proposer B又发起ID为n+1的提议，在n+1提议未完成前proposer C又发起ID为n+2的提议…… 如此acceptor不能完成决议、形成活锁(livelock)，虽然这不影响一致性，但我们一般不想让这样的情况发生。解决的方法是从proposer中选出一个leader，提议统一由leader发起。
 
