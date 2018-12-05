@@ -1,0 +1,8 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.stylefeng.guns.api.base.controller.GlobalController,\
+com.stylefeng.guns.api.config.DefaultFastjsonConfig,\
+com.stylefeng.guns.api.config.MultiDataSourceConfig,\
+com.stylefeng.guns.api.config.SingleDataSourceConfig,\
+com.stylefeng.guns.api.config.DefaultProperties,\
+com.stylefeng.guns.api.config.DefaultWebConfig
