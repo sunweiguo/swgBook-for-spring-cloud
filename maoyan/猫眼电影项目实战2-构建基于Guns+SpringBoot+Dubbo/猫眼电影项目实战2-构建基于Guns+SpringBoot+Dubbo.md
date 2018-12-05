@@ -56,11 +56,14 @@ http://localhost/auth?userName=admin&password=admin
 
 ## API公共接口
 
-因为很多接口是公共依赖的，所以需要将这些接口单独抽取出来放在一起，然后统一以jar包的形式提供。这就需要将guns-core拷贝一份叫做guns-api。
+因为很多接口是公共依赖的，所以需要将这些接口单独抽取出来放在一起，然后统一以jar包的形式提供。这就需要将 guns-core 拷贝一份叫做 guns-api 。
 
 可以在里面测试一下，写一个接口`UserAPI`.
 
-然后在guns-gateway中依赖于这个guns-api，然后拿到这个接口。比较简单，具体看代码。
+然后在 guns-gateway 中依赖于这个 guns-api ，然后拿到这个接口。比较简单，具体看代码。
+
+==这边要特别注意==：一个是要对写好的这个 guns-api 进行 maven 的 install 操作。另一个是要在 parent 的 Pom 文件里面添加这个jar包的依赖:
+
 
 
 <div align="center">
