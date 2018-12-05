@@ -1,8 +1,8 @@
 package com.stylefeng.guns.config.web;
 
 import com.stylefeng.guns.config.properties.GunsProperties;
-import com.stylefeng.guns.api.intercept.GunsUserFilter;
-import com.stylefeng.guns.api.shiro.ShiroDbRealm;
+import com.stylefeng.guns.core.intercept.GunsUserFilter;
+import com.stylefeng.guns.core.shiro.ShiroDbRealm;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cache.ehcache.EhCacheManager;
 import org.apache.shiro.codec.Base64;

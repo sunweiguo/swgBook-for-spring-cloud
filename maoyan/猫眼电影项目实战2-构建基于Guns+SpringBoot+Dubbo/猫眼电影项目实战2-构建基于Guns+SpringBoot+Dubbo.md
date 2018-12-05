@@ -68,4 +68,67 @@ http://localhost/auth?userName=admin&password=admin
 </div>
 
 
-注意，别忘记在parent中要将我们新加入的module添加管理。
+注意，别忘记在 parent 中要将我们新加入的 module 添加管理。
+
+这里将新建的 guns-user 模块添加进来做一个测试。
+
+首先是从 guns-gateway 这里拷贝一份。这个服务主要是提供关于用户的一些基本操作。比如登陆等功能。这里主要测试一下网关调用用户服务功能，使其打通。
+
+那么，显然，现在的关系是， guns-user 是服务提供者， guns-gateway 是服务调用者。我在 guns-api 中定义一个接口叫做 login 。
+
+
+```java
+public interface UserAPI {
+    String login(String username,String password);
+}
+```
+
+
+然后 guns-user 要集成 dubbo 和 zk ，注意他不需要进行鉴权，所以 application.yml 文件中的配置改为：
+
+
+```
+rest:
+  auth-open: false #jwt鉴权机制是否开启(true或者false)
+  sign-open: false #签名机制是否开启(true或false)
+```
+
+并且给他分配一个端口号，我这里是8081.这里我主要定义一个实现类来实现login接口
+
+
+```java
+@Component
+@Service(interfaceClass = UserAPI.class)
+public class UserServiceImpl implements UserAPI{
+    @Override
+    public String login(String username, String password) {
+        return "=====username="+username+",password="+password;
+    }
+}
+```
+在我的 guns-gateway 中调用这个 login 方法。为了方便测试，直接在 guns-gateway 中的 AuthController 鉴权的时候进行测试。
+
+```java
+@RestController
+public class AuthController {
+
+    @Reference(interfaceClass = UserAPI.class)
+    private UserAPI userAPI;
+
+    @Autowired
+    private JwtTokenUtil jwtTokenUtil;
+
+    @Resource(name = "simpleValidator")
+    private IReqValidator reqValidator;
+
+    @RequestMapping(value = "${jwt.auth-path}")
+    public ResponseEntity<?> createAuthenticationToken(AuthRequest authRequest) {
+        //测试能不能接受参数并且调用成功gate-user里面的Login方法
+        System.out.println(userAPI.login(authRequest.getUserName(),authRequest.getPassword()));
+        
+        ...
+```
+
+浏览器访问：http://localhost:8080/auth?userName=admin&password=admin
+
+看控制台结果。

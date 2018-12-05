@@ -8,8 +8,8 @@
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>guns-gatway</name>
-    <description>网关</description>
+    <name>guns-gateway</name>
+    <description>guns REST服务器</description>
 
     <parent>
         <groupId>com.stylefeng</groupId>
@@ -36,10 +36,7 @@
             <groupId>com.stylefeng</groupId>
             <artifactId>guns-core</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.stylefeng</groupId>
-            <artifactId>guns-api</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
@@ -60,8 +57,6 @@
         <dependency>
             <groupId>com.stylefeng</groupId>
             <artifactId>guns-api</artifactId>
-            <version>1.0.0</version>
-            <scope>compile</scope>
         </dependency>
 
 

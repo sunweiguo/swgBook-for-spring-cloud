@@ -26,7 +26,7 @@ public class ControllerConfig {
         imports.add("org.springframework.ui.Model");
         imports.add("org.springframework.web.bind.annotation.PathVariable");
         imports.add("org.springframework.beans.factory.annotation.Autowired");
-        imports.add(contextConfig.getProPackage() + ".api.log.LogObjectHolder");
+        imports.add(contextConfig.getProPackage() + ".core.log.LogObjectHolder");
         imports.add("org.springframework.web.bind.annotation.RequestParam");
         imports.add(contextConfig.getModelPackageName() + "." + contextConfig.getEntityName());
         imports.add(contextConfig.getProPackage() + ".modular." + contextConfig.getModuleName() + ".service" + ".I" + contextConfig.getEntityName() + "Service");

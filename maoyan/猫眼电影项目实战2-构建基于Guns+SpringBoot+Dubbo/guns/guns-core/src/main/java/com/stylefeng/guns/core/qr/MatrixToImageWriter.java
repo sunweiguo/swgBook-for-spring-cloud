@@ -26,7 +26,7 @@ import java.nio.file.Path;
 
 /**
  * Writes a {@link BitMatrix} to {@link BufferedImage},
- * file or stream. Provided here instead of api since it depends on
+ * file or stream. Provided here instead of core since it depends on
  * Java SE libraries.
  *
  * @author Sean Owen
