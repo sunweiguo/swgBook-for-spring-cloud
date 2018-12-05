@@ -15,7 +15,7 @@
 
 ## Guns
 
-[Guns](https://gitee.com/naan1993/guns/tree/v3.1/)基于SpringBoot,致力于做更简洁的后台管理系统,完美整合springmvc + shiro + mybatis-plus + beetl + flowable的一个开源整合系统。基于他，我们可以快速地搭建应用系统。这里主要用的是V3.1版本。
+[Guns](https://gitee.com/naan1993/guns/tree/v3.1/)基于SpringBoot,致力于做更简洁的后台管理系统,完美整合springmvc + shiro + mybatis-plus + beetl + flowable的一个开源整合系统。基于他，我们可以快速地搭建应用系统。这里主要用的是V4.0版本。
 
 首先根据guns-rest下的db创建响应的数据库和表。并注意application.yml中的连接数据库的用户名和密码。
 
