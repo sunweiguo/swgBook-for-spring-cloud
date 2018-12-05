@@ -7,5 +7,5 @@ package com.stylefeng.guns.api.user;
  * @CONTACT 317758022@qq.com
  */
 public interface UserAPI {
-    boolean checkUser(String username,String password);
+    String login(String username,String password);
 }
