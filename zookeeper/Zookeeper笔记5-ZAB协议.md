@@ -176,7 +176,7 @@ ZooKeeper规定所有有效的投票都必须在同一轮次中。每个服务�
 ==**外部投票的logickClock = 自己的:**== 进行选票PK。
 
 
-#### 4.2 选票PK选票PK是基于(self_id, self_zxid)与(vote_id, vote_zxid)的对比：
+#### 4.2 选票PK是基于(self_id, self_zxid)与(vote_id, vote_zxid)的对比：
 
 若logicClock一致，则对比二者的vote_zxid。
 
