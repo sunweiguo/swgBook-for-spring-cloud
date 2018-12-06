@@ -31,15 +31,18 @@
 
 
 
-### TODO---[6.Zookeeper原理学习](https://github.com/sunweiguo/swgBook/tree/master/zookeeper/) 
+[6.Zookeeper原理学习](https://github.com/sunweiguo/swgBook/tree/master/zookeeper/) 
+
+学习zk的基本原理，包括paxos算法等，加强对zk的理解。
 
 
 ### TODO---[7.大数据入门](https://github.com/sunweiguo/swgBook/tree/master/zookeeper/)
 
 
 
-### TODO---[8.基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
+[8.基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/maoyan/)
 
+做一个基于dubbo+zookeeper的仿猫眼电影网站的一个分布式系统。学习地址：http://coding.imooc.com/class/273.html
 
 ### TODO---[9.算法](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
 
