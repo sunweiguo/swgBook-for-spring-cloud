@@ -13,19 +13,9 @@
 
 学习标题 | 说明
 ---|---
-[1.Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)  | <b>基于spring cloud最新版本组件系统学习（:full_moon_with_face::full_moon_with_face::full_moon_with_face:）</b>
-row 2 col 1 | row 2 col 2
+[1.Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)  | :full_moon_with_face::full_moon_with_face::full_moon_with_face:<b>基于spring cloud最新版本组件系统学习</b>
+[2.Spring Cloud入门实战学习笔记](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-weather-action/)  | :full_moon_with_face::full_moon_with_face::full_moon_with_face:根据慕课网视频教程：</b>[从天气项目看 Spring Cloud 微服务治理](http://coding.imooc.com/class/177.html)<b>学习的笔记和代码
 
-
-
-## [1.Spring Cloud 组件系统学习![](https://img.shields.io/badge/SpringBoot-2.0.3.RELEASE-519dd9.svg) ![](https://img.shields.io/badge/SpringCloud-Finchley.RELEASE.RELEASE-519dd9.svg)](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/) 
-
-:smile::smile::smile:<b>spring cloud组件学习（已完成）</b>
-
-
-## [2.Spring Cloud入门实战学习笔记 ![](https://img.shields.io/badge/SpringBoot-2.1.0.RELEASE-519dd9.svg) ![](https://img.shields.io/badge/SpringCloud-Finchley.RELEASE.RELEASE-519dd9.svg)](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-weather-action) 
-
-:sparkles::sparkles::sparkles:<b>根据慕课网视频教程：</b>[从天气项目看 Spring Cloud 微服务治理](http://coding.imooc.com/class/177.html)<b>学习的笔记和代码（已完成）</b>
 
 
 
