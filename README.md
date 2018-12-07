@@ -19,6 +19,9 @@
 [Spring Cloud 码码购](https://github.com/sunweiguo/swgBook/tree/master/mamagou/)  | :new_moon_with_face::new_moon_with_face::new_moon_with_face:<b>Spring Cloud 分布式电商实战实战</b>
 
 
+| 表格左對齊 | 表格居中對齊 | 表格右對齊 |
+|:--|:--:|--:|
+| 表格內容表格內容表格內容 | 表格內容表格內容表格內容 | 表格內容表格內容表格內容 |
 
 
 ## TODO---[5.设计模式](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)
