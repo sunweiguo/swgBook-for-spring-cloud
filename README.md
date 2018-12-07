@@ -5,10 +5,15 @@
 </div>
 
 
+:full_moon_with_face: 已完成
 
-header 1 | header 2
+:first_quarter_moon: 完成中
+
+:new_moon_with_face: 未开始
+
+学习标题 | 说明
 ---|---
-[1.Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)  | <b>基于spring cloud最新版本组件系统学习（已完成）</b>
+[1.Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)  | <b>基于spring cloud最新版本组件系统学习（:full_moon_with_face::full_moon_with_face::full_moon_with_face:）</b>
 row 2 col 1 | row 2 col 2
 
 
