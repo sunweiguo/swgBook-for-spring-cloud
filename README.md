@@ -19,7 +19,7 @@
 
 标题 | 说明 | 完成状态 | 代码仓库
 ---|--- | --- | --- 
-[Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)  | <b>基于spring cloud最新版本组件系统学习</b> | :full_moon_with_face::full_moon_with_face::full_moon_with_face: | [spring-cloud-modules](https://github.com/sunweiguo/spring-cloud-modules)
+[Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spirng-cloud-modules/)  | <b>基于spring cloud最新版本组件系统学习</b> | :full_moon_with_face::full_moon_with_face::full_moon_with_face: | [springCloudModules](https://github.com/sunweiguo/spring-cloud-modules)
 [Spring Cloud入门实战学习笔记](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-weather-action/)  | 根据慕课网视频教程：</b>[从天气项目看 Spring Cloud 微服务治理](http://coding.imooc.com/class/177.html)<b>学习的笔记和代码 | :full_moon_with_face::full_moon_with_face::full_moon_with_face:
 [关于无线传感器(WSN)中DV-Hop节点定位算法的研究](https://github.com/sunweiguo/swgBook/tree/master/paper/)  | <b>主要关于毕业设计相关的一些算法的研究笔记</b> | :first_quarter_moon::first_quarter_moon::first_quarter_moon:
 [Spring Cloud 码码购](https://github.com/sunweiguo/swgBook/tree/master/mamagou/)  | <b>Spring Cloud 分布式电商实战实战</b> | :new_moon_with_face::new_moon_with_face::new_moon_with_face:
