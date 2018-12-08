@@ -45,21 +45,22 @@
 * 通过`get path [watch]`或者`stat path [watch]`或者`ls path [watch]`都可以设置watcher
 * 父节点 增 删 改 操作触发watcher
 * 子节点 增 删 改 操作触发watcher
-* 【创建父节点触发】：NodeCreated
+
+### 【创建父节点触发】：NodeCreated
 
 
+```properties
+[zk: localhost:2181(CONNECTED) 24] stat /hello watch  
+Node does not exist: /hello
+[zk: localhost:2181(CONNECTED) 25] create /hello world
 
-> [zk: localhost:2181(CONNECTED) 24] stat /hello watch  
-> Node does not exist: /hello
-> [zk: localhost:2181(CONNECTED) 25] create /hello world
-> 
-> WATCHER::
-> Created /hello
-> 
-> WatchedEvent state:SyncConnected type:NodeCreated path:/hello
+WATCHER::
+Created /hello
 
+WatchedEvent state:SyncConnected type:NodeCreated path:/hello
+```
 
-* 【修改父节点数据触发】：NodeDataChanged
+### 【修改父节点数据触发】：NodeDataChanged
 
 
 ```properties
@@ -75,7 +76,7 @@ WATCHER::cZxid = 0x300000011
 WatchedEvent state:SyncConnected type:NodeDataChanged path:/helloctime = Sat Dec 08 20:00:53 CST 2018
 ```
 
-* 【删除父节点触发】：NodeDeleted
+### 【删除父节点触发】：NodeDeleted
 
 
 ```properties
@@ -88,7 +89,7 @@ WATCHER::
 WatchedEvent state:SyncConnected type:NodeDeleted path:/hello
 ```
 
-* 【创建子节点触发】：ls为父节点设置watcher，创建子节点触发NodeChildrenChanged
+### 【创建子节点触发】：ls为父节点设置watcher，创建子节点触发NodeChildrenChanged
 
 
 ```properties
@@ -106,7 +107,7 @@ WATCHER::Created /hello/helloson
 WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/hello
 ```
 
-* 【删除子节点触发】：ls为父节点设置watcher，删除子节点触发NodeChildrenChanged
+### 【删除子节点触发】：ls为父节点设置watcher，删除子节点触发NodeChildrenChanged
 
 
 ```properties
@@ -122,7 +123,7 @@ WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/hello
 ```
 
 
-* 【更新子节点触发】：ls为父节点设置watcher，更新子节点不触发事件
+### 【更新子节点触发】：ls为父节点设置watcher，更新子节点不触发事件
 
 ```properties
 [zk: localhost:2181(CONNECTED) 59] ls /hello
