@@ -48,7 +48,7 @@
 * 【创建父节点触发】：NodeCreated
 
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 24] stat /hello watch  
 Node does not exist: /hello
 [zk: localhost:2181(CONNECTED) 25] create /hello world
