@@ -62,7 +62,7 @@ WatchedEvent state:SyncConnected type:NodeCreated path:/hello
 * 【修改父节点数据触发】：NodeDataChanged
 
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 26] stat /hello watch
 
 [zk: localhost:2181(CONNECTED) 27] get /hello
@@ -78,7 +78,7 @@ WatchedEvent state:SyncConnected type:NodeDataChanged path:/helloctime = Sat Dec
 * 【删除父节点触发】：NodeDeleted
 
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 32] get /hello watch
 
 [zk: localhost:2181(CONNECTED) 33] delete /hello
@@ -91,7 +91,7 @@ WatchedEvent state:SyncConnected type:NodeDeleted path:/hello
 * 【创建子节点触发】：ls为父节点设置watcher，创建子节点触发NodeChildrenChanged
 
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 52] ls /
 [zookeeper]
 [zk: localhost:2181(CONNECTED) 53] create /hello world
@@ -109,7 +109,7 @@ WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/hello
 * 【删除子节点触发】：ls为父节点设置watcher，删除子节点触发NodeChildrenChanged
 
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 56] ls /hello
 [helloson]
 [zk: localhost:2181(CONNECTED) 57] ls /hello watch
@@ -124,7 +124,7 @@ WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/hello
 
 * 【更新子节点触发】：ls为父节点设置watcher，更新子节点不触发事件
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 59] ls /hello
 []
 [zk: localhost:2181(CONNECTED) 60] create /hello/helloson worldson
@@ -150,7 +150,7 @@ worldsonhahaha
 就算是设置成`ls /hello/helloson watch`也不行。只有这样才可以触发watcher:
 
 
-```
+```properties
 [zk: localhost:2181(CONNECTED) 72] get /swg/swgson watch
 8080
 
@@ -215,13 +215,13 @@ Watcher是ZK中很重要的特性，ZK允许用户在指定节点上注册一些
 
 找到这一行：
 
-```
+```properties
 nohup $JAVA "-Dzookeeper.log.dir=${ZOO_LOG_DIR}" "-Dzookeeper.root.logger=${ZOO_LOG4J_PROP}"
 ```
 
 在后面继续添加：
 
-```
+```properties
 "-Dzookeeper.DigestAuthenticationProvider.superDigest=username:xQJmxLMiHGwaqBvst5y6rkB6HQs="
 ```
 
