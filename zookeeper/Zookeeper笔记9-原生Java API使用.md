@@ -7,7 +7,9 @@
 <div align="center">
     <img src="../pic/zookeeper/zookeeper9-1.png" >
 </div>
+
 代码在[code-for-chapter9](https://github.com/sunweiguo/codeForZookeeper/tree/master/code-for-chapt9)
+
 ## 客户端与ZK建立连接
 
 
