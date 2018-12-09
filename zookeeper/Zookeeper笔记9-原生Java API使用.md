@@ -7,7 +7,7 @@
 <div align="center">
     <img src="../pic/zookeeper/zookeeper9-1.png" >
 </div>
-代码在(code-for-chapter9)[https://github.com/sunweiguo/codeForZookeeper/tree/master/code-for-chapt9]
+代码在[code-for-chapter9](https://github.com/sunweiguo/codeForZookeeper/tree/master/code-for-chapt9)
 
 ## 客户端与ZK建立连接
 
@@ -344,9 +344,9 @@ public class ZKGetNodeData implements Watcher {
 
 ## 获取子节点数据
 
-基本同上，见代码(ZKGetChildrenList)[https://github.com/sunweiguo/codeForZookeeper/blob/master/code-for-chapt9/ZKGetChildrenList.java]
+基本同上，见代码[ZKGetChildrenList](https://github.com/sunweiguo/codeForZookeeper/blob/master/code-for-chapt9/ZKGetChildrenList.java)
 
 ## 判断节点是否存在
 
-基本同上，见代码(ZKNodeExist)[https://github.com/sunweiguo/codeForZookeeper/blob/master/code-for-chapt9/ZKNodeExist.java]
+基本同上，见代码[ZKNodeExist](https://github.com/sunweiguo/codeForZookeeper/blob/master/code-for-chapt9/ZKNodeExist.java)
 
