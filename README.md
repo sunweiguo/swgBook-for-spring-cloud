@@ -32,6 +32,3 @@
 
 
 
-:smile: :shipit: :sparkles: :-1: :+1: :clap:
-
-
