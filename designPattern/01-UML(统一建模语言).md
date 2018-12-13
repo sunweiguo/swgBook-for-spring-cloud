@@ -1,9 +1,5 @@
 # 01-UML(统一建模语言)
 
-
-<div align="center">
-    <img src="http://bloghello.oursnail.cn/18-12-3/39890922.jpg" >
-</div>
 * UML类图：用于表示类、接口、实例等之间相互的静态关系
 * **UML箭头方向**：从子类指向父类（extends）
 * **空心三角箭头**：继承或实现；实现：继承；虚线：实现
