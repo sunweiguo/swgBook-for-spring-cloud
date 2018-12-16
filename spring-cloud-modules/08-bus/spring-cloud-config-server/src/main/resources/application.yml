@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/sunweiguo/spring-cloud-config-center.git
           username: sunweiguo
-          password: 22daguozi
+          password: *********
 eureka:
   client:
     service-url:
