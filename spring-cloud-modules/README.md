@@ -7,5 +7,5 @@
 - zuul--网关
 - config--服务配置中心
 - bus--消息总线
-- stream--对接MQ
+- stream--MQ驱动
 - sleuth--服务链路追踪
