@@ -25,10 +25,8 @@
 <b>[Spring Cloud 码码购](https://github.com/sunweiguo/swgBook/tree/master/mamabuy/)</b>  | Spring Cloud 分布式电商实战实战 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:| [mama-buy](https://github.com/sunweiguo/mama-buy)
 <b>[设计模式](https://github.com/sunweiguo/swgBook/tree/master/designPattern/)</b>  | 设计模式 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:| [design-pattern](https://github.com/sunweiguo/design-pattern)
 <b>[Zookeeper原理学习](https://github.com/sunweiguo/swgBook/tree/master/zookeeper/)</b> | 系统学习一下zookeeper的原理 | :full_moon_with_face::full_moon_with_face::full_moon_with_face:|[zookeeper](https://github.com/sunweiguo/codeForZookeeper)
-<b>[基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/maoyan/)</b>  | 做一个基于dubbo+zookeeper的仿猫眼电影网站的一个分布式系统。学习地址：http://coding.imooc.com/class/273.html | :first_quarter_moon::first_quarter_moon::first_quarter_moon:
 <b>[杂记](https://github.com/sunweiguo/swgBook/tree/master/zaji/)</b>  | 零碎的知识点，都是看到一个觉得不会记录一下 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:
 
 
-<注1>：这个仓库主要记载关于分布式的一些东西，比如学习spring cloud,dubbo,zookeeper等知识，并且将一些练习的实战笔记也放在这里。
+<注1>：这个仓库主要记载关于分布式的一些东西，比如学习spring cloud,zookeeper等知识，并且将一些练习的实战笔记也放在这里。
 <br/>
-<注2>：还将新建一个仓库，专门介绍java的基础知识，是对我2018上半年准备秋招所做的笔记的再一次提纯，增加更多自己的思考和理解，准备中。
