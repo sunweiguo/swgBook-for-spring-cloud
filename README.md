@@ -1,4 +1,4 @@
-# swg个人笔记 ![](https://img.shields.io/badge/language-java-orange.svg)
+# swg分布式相关初学-个人笔记 ![](https://img.shields.io/badge/language-java-orange.svg)
 
 <div align="center">
 	<img src="pic/avatar.png" width="150px">
