@@ -21,7 +21,6 @@
 ---|--- | --- | --- 
 <b>[Spring Cloud 组件系统学习](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-modules/)</b>  | 基于spring cloud最新版本组件系统学习 | :full_moon_with_face::full_moon_with_face::full_moon_with_face: | [springCloudModules](https://github.com/sunweiguo/spring-cloud-modules)
 <b>[Spring Cloud入门实战学习笔记](https://github.com/sunweiguo/swgBook/tree/master/spring-cloud-weather-action/)</b>  | 根据慕课网视频教程：[从天气项目看 Spring Cloud 微服务治理](http://coding.imooc.com/class/177.html)学习的笔记和代码 | :full_moon_with_face::full_moon_with_face::full_moon_with_face: | [WeatherOnSpringCloud](https://github.com/sunweiguo/WeatherOnSpringCloud)
-<b>[关于无线传感器(WSN)中DV-Hop节点定位算法的研究](https://github.com/sunweiguo/swgBook/tree/master/paper/)</b>  | 主要关于毕业设计相关的一些算法的研究笔记 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:
 <b>[Spring Cloud 码码购](https://github.com/sunweiguo/swgBook/tree/master/mamabuy/)</b>  | Spring Cloud 分布式电商实战实战 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:| [mama-buy](https://github.com/sunweiguo/mama-buy)
 <b>[设计模式](https://github.com/sunweiguo/swgBook/tree/master/designPattern/)</b>  | 设计模式 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:| [design-pattern](https://github.com/sunweiguo/design-pattern)
 <b>[Zookeeper原理学习](https://github.com/sunweiguo/swgBook/tree/master/zookeeper/)</b> | 系统学习一下zookeeper的原理 | :full_moon_with_face::full_moon_with_face::full_moon_with_face:|[zookeeper](https://github.com/sunweiguo/codeForZookeeper)
