@@ -25,9 +25,7 @@
 <b>[Spring Cloud 码码购](https://github.com/sunweiguo/swgBook/tree/master/mamabuy/)</b>  | Spring Cloud 分布式电商实战实战 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:| [mama-buy](https://github.com/sunweiguo/mama-buy)
 <b>[设计模式](https://github.com/sunweiguo/swgBook/tree/master/designPattern/)</b>  | 设计模式 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:| [design-pattern](https://github.com/sunweiguo/design-pattern)
 <b>[Zookeeper原理学习](https://github.com/sunweiguo/swgBook/tree/master/zookeeper/)</b> | 系统学习一下zookeeper的原理 | :full_moon_with_face::full_moon_with_face::full_moon_with_face:|[zookeeper](https://github.com/sunweiguo/codeForZookeeper)
-<b>[大数据入门](https://github.com/sunweiguo/swgBook/tree/master/bigData1/)</b>  | 大数据入门 | :new_moon_with_face::new_moon_with_face::new_moon_with_face:
 <b>[基于dubbo的猫眼项目实战](https://github.com/sunweiguo/swgBook/tree/master/maoyan/)</b>  | 做一个基于dubbo+zookeeper的仿猫眼电影网站的一个分布式系统。学习地址：http://coding.imooc.com/class/273.html | :first_quarter_moon::first_quarter_moon::first_quarter_moon:
-<b>[算法](https://github.com/sunweiguo/swgBook/tree/master/algorithm/)</b>  | 重要的面试算法整理 | :new_moon_with_face::new_moon_with_face::new_moon_with_face:
 <b>[杂记](https://github.com/sunweiguo/swgBook/tree/master/zaji/)</b>  | 零碎的知识点，都是看到一个觉得不会记录一下 | :first_quarter_moon::first_quarter_moon::first_quarter_moon:
 
 
