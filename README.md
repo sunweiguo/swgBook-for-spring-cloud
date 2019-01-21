@@ -4,6 +4,7 @@
 	<img src="pic/avatar.png" width="150px">
 </div>
 
+> github维护博客有点麻烦，还是继续用有道云笔记+hexo来维护吧。我的hexo博客地址： fourcolor.oursnail.cn
 
 :full_moon_with_face: 已完成
 
