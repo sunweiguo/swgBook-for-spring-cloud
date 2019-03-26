@@ -6,7 +6,7 @@
 
 关于代码中不慎写出的github账号的密码问题，我已经修改，所以不要尝试登陆。
 
-> github维护博客有点麻烦，还是继续用有道云笔记+hexo来维护吧。我的hexo博客地址： fourcolor.oursnail.cn
+> github维护博客有点麻烦，还是继续用有道云笔记+hexo来维护吧。我的hexo博客地址： fossi.oursnail.cn
 
 :full_moon_with_face: 已完成
 
